@@ -1,0 +1,20 @@
+A=int(input("A="))
+B=int(input("B="))
+C=int(input("C="))
+
+if A>B>C:
+    print(C,B,A)
+elif A==B==C:
+    print("Числа рівні")
+elif B>C>A:
+    print(A,C,B)
+elif C>B>A:
+    print(A,B,C)
+elif A>C>B:
+    print(B,C,A)
+elif B>A>C:
+    print(C,A,B)
+elif C>A>B:
+    print(B,A,C)
+else:
+    print("Деякі числа рівні")
